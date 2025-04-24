@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: "sofia", Garamond, Georgia;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+.theather{
+ margin:40px 20px;
+}
+.theather-name{
+  font-size: 2.4em;
+  color: #ffcc00;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 5px #000;
+}
+.screen{
+  display:inline-block;
+  border:10px solid #444;
+  background-color:#111;
+  position:relative;
+  padding:0;
+  box-shadow:0 0 100px #ffcc00 ;
+}
+
+.light{
+border: 8px dotted #ffcc00;
+position: absolute;
+left:-20px;
+right: -20px;
+top: -20px;
+bottom: -20px; 
+animation: shin 1s infinite;
+pointer-events: none; 
+}
+
+@keyframes shin {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.controls{
+  margin-top: 40px;
+}
+button{
+  background-color: #ffcc00;
+  padding:10px 20px;
+  border:none; 
+  border-radius: 14px;
+  margin: 20px;
+ font-size: 1.5em;
+ cursor:pointer;
+}
+button:hover{
+  background-color: #b18038;
+}
